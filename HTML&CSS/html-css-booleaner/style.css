@@ -43,16 +43,25 @@ figure{
 ul{
     padding:0;
 }
+table{
+    width:100%;
+    text-align:left;
 
+}
 thead{
     background-color: rgb(89, 100, 247);
     color:white;
 
 }
+th{
+    width:33%;
+}
 .table-body{
     background-color: lightblue;
 }
-
+td{
+    padding:0;
+}
 #row-2{
     background-color: white;
 }
