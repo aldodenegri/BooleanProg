@@ -17,6 +17,7 @@ body {
 }
 main {
     margin-left:100px;
+    margin-right:100px;
 }
 #light-blue {
     color: rgb(106, 206, 240);
@@ -25,13 +26,33 @@ main {
 }
 
 .auth {
+    
     font-size: 15px;
     color: grey;
     
 }
 #date{
-    font-size: 15px;
+    font-size: 10px;
 }
 figure{
     margin: 0;
+}
+#evidenzia{
+    background-color: rgb(219, 241, 18);
+}
+ul{
+    padding:0;
+}
+
+thead{
+    background-color: rgb(89, 100, 247);
+    color:white;
+
+}
+.table-body{
+    background-color: lightblue;
+}
+
+#row-2{
+    background-color: white;
 }
