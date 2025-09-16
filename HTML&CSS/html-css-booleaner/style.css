@@ -1,0 +1,34 @@
+header {
+    background-color: rgb(73, 183, 219);
+    background-image: url('./img/pattern.png');
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+}
+#logo {
+    height: 100px;
+    margin-left:100px;
+    margin-top:100px;
+}
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+
+}
+main {
+    margin-left:100px;
+}
+#light-blue {
+    color: rgb(106, 206, 240);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.auth {
+    font-size: 15px;
+    color: grey;
+    
+}
+#date{
+    font-size: 15px;
+}
