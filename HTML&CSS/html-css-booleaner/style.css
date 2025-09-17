@@ -41,12 +41,12 @@ figure{
     background-color: rgb(219, 241, 18);
 }
 ul{
-    padding:0;
+    padding:20px;
 }
 table{
     width:100%;
     text-align:left;
-
+    margin:0;   
 }
 thead{
     background-color: rgb(89, 100, 247);
@@ -64,4 +64,27 @@ td{
 }
 #row-2{
     background-color: white;
+}
+.mongraphImg{
+    float: left;
+    margin: 0 0 0 10px; /* top left bottom right*/
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.mongraphImg img{
+    float:left;
+    margin:0;
+    padding: 0;
+}
+.mongraphImg span{
+    float: left;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size:30px;
 }
