@@ -66,11 +66,12 @@ td{
     background-color: white;
 }
 .mongraphImg{
-    float: left;
-    margin: 0 0 0 10px; /* top left bottom right*/
+    float: left; /* per far sì che le immagini si dispongano una accanto all'altra partendo da sinistra*/
+    margin: 0 10px 0 0; /* top right bottom left*/
     padding: 0;
-    position: relative;
-    overflow: hidden;
+    position: relative; /* per posizionare lo span in modo assoluto rispetto a questo contenitore */
+    overflow: hidden; /* per far sì che lo span non esca fuori dall'immagine */
+
 }
 .mongraphImg img{
     float:left;
