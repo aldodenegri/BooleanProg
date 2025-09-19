@@ -1,7 +1,7 @@
 body{
     margin:0;
     font-family:sans-serif;
-    background-color: rgb(197, 197, 192);
+    background-color: rgba(197, 197, 192, 0.589);
 }
 header{
     width:100%;
@@ -17,10 +17,12 @@ header{
 main{
     width:80%;
     margin-top:2%;
+    margin-bottom:2%;
     position:relative;
     left:10%;
     background-color: white;
     border-radius:10px;
+    
 }
 #add{
     border-bottom:1px solid rgb(187, 181, 181);
@@ -45,14 +47,63 @@ main{
 }
 .triangle{
     list-style:none;
-    padding-left:0;
+    padding: 20px 30px;
     margin:0;
 }
 .triangle > li::before{ /* seleziona tutti gli li figli DIRETTI di .triangle */
   content: "▼ ";
   color: black;
-  font-size: 15px;
+  font-size: 13px;
+  transform: scaleY(0.7); /* Scala verticalmente per appiattire il triangolo */
+  display: inline-block; /* Gli elementi ::before o ::after non accettano modifiche di tipo height o width 
+                            quindi aggiungo questa riga perché riesco a trattare gli elementi inline anche come 
+                            block permettendo di fare delle trasfomazioni */
 }
 .triangle .custom{
     list-style:none;
+}
+.custom button{
+    border:none;
+    border-radius:20px;
+    padding:5px 10px;
+    margin-left:10px;
+    cursor:pointer;
+    font-size:13px;
+    color:white
+}
+.Editorial{
+    background-color:rgb(44, 169, 201);
+}
+.Q1_Goals{
+    background-color:rgba(106, 64, 184, 0.637);
+}
+.Recruiting{
+    background-color:rgba(18, 161, 113, 0.822);
+}
+.Mobile{
+    background-color:rgba(236, 156, 35, 0.822);
+}
+.Website{
+    background-color:rgba(220, 53, 109, 0.822);
+}
+.Sales{
+    background-color:rgba(155, 236, 88, 0.685);
+}
+.custom li{
+    margin:10px 5px;    
+}
+.custom span{
+    border-radius:50%;
+    margin-right:10px;
+    padding:2px 5px;
+    font-size:15px;
+}
+.check{
+    border:1px green solid;
+    color:green;
+
+}
+.cross{
+    border:1px red solid;
+    color:red;
 }
