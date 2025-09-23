@@ -10,9 +10,13 @@ header{
     display:inline-block;
 }
 #title{
-    position:relative;
-    bottom:20px;
-    font-size-adjust: 0.75;
+    display:inline;
+    vertical-align:middle;
+
+    
+}
+#logo{
+    vertical-align:middle;
 }
 main{
     width:80%;
@@ -45,6 +49,11 @@ main{
     color: rgb(187, 181, 181);
     background-color:white;
 }
+.triangle span{
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom:10px;
+}
 .triangle{
     list-style:none;
     padding: 20px 30px;
@@ -59,6 +68,7 @@ main{
                             quindi aggiungo questa riga perché riesco a trattare gli elementi inline anche come 
                             block permettendo di fare delle trasfomazioni */
 }
+
 .triangle .custom{
     list-style:none;
 }
@@ -97,6 +107,7 @@ main{
     margin-right:10px;
     padding:2px 5px;
     font-size:15px;
+    
 }
 .check{
     border:1px green solid;
