@@ -147,3 +147,7 @@ footer{
     background-color: pink;
     border: 1px black dashed;
 }
+footer input[type="button"]:hover{
+    background-color: rgb(241, 154, 168);
+    cursor: pointer;
+}
