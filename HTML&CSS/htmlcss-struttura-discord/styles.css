@@ -1,87 +1,149 @@
-body{
-    margin:0;
-    font-style:sans-serif;
+body {
+    margin: 0;
+    font-style: sans-serif;
 }
 
-header{
-    display:flex;
+header {
+    display: flex;
     background-color: #6bc1f3;
-    width:100%;
-    height:40px;
+    width: 100%;
+    height: 40px;
     text-align: center;
     justify-content: center;
 
 }
-#rett_arancione{
-    display:flex;
+
+#rett_arancione {
+    display: flex;
     background-color: orange;
-    width:50%;
+    width: 50%;
     height: 30px;
-    margin:5px;
+    margin: 5px;
     align-items: center;
     justify-content: space-between;
 }
-#rett_arancione span{
-    display:flex;
-    align-items:center;
+
+#rett_arancione span {
+    display: flex;
+    align-items: center;
 }
-#header_logo{
-    width:15%;
-    border:2px black dashed;
-    height:30px;
+
+#header_logo {
+    width: 15%;
+    border: 2px black dashed;
+    height: 30px;
 }
-#header_links{
-    width:70%;
-    border:2px black dashed;
-    height:30px;
-    display:flex;
+
+#header_links {
+    width: 70%;
+    border: 2px black dashed;
+    height: 30px;
+    display: flex;
     justify-content: center;
-    
+
 }
-#header_login{
-    width:15%;
-    border:2px black dashed;
-    height:30px;
-    display:flex;
+
+#header_login {
+    width: 15%;
+    border: 2px black dashed;
+    height: 30px;
+    display: flex;
     justify-content: flex-end;
 }
-#sez1{
+
+#sez1 {
     background-color: rgb(10, 54, 112);
     width: 100%;
-    padding:7px;
-    display:flex;
+    padding: 7px;
+    display: flex;
     justify-content: center;
 }
-#rosa{
+
+#rosa {
     background-color: pink;
-    width:50%;
+    width: 50%;
     height: 150px;
-    width:250px;  
+    width: 250px;
 }
-main > div{
-    padding:7px;
-    width:100%;
-    display:flex;
+
+main>div {
+    padding: 7px;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-main > div:nth-last-child(2), main > div:nth-last-child(4){
+
+main>div:nth-last-child(2),
+main>div:nth-last-child(4) {
     background-color: lightgray;
-    width:100%;
+    width: 100%;
 }
-.blu_grande{
+
+.blu_grande {
     background-color: blue;
-    width:350px;
+    width: 350px;
     height: 200px;
+    border: 1px black dashed;
 }
-.rosa_piccolo{
+
+.rosa_piccolo {
     background-color: lightpink;
-    width:200px;
+    width: 250px;
     height: 200px;
+    border: 1px black dashed;
 }
-main > div:nth-child(3){
-    display:flex;
-    .blu_grande{
-        order:1;
+
+main>div:nth-child(3) {
+    display: flex;
+
+    .blu_grande {
+        order: 1;
     }
+}
+
+#verde {
+    background-color: green;
+    width: 600px;
+    height: 300px;
+    border: 1px black dashed;
+}
+
+main>div:last-child {
+    background-color: rgb(77, 73, 73);
+
+}
+
+#rosa_medio {
+    height: 250px;
+    width: 200px;
+    background-color: lightpink;
+    border: 1px black dashed;
+}
+
+.turchese {
+    background-color: turquoise;
+    width: 100px;
+    height: 250px;
+    border: 1px white dashed;
+}
+footer{
+    background-color: rgb(77, 73, 73);
+    border-top: 2px solid white;
+    display:flex;
+    justify-content: center;
+    padding-top:5px;
+}
+#verde_acqua{
+    background-color: aquamarine;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#verde_acqua span,input{
+    background-color: pink;
+    border: 1px black dashed;
 }
