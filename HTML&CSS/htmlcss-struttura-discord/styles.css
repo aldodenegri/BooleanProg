@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    font-style:sans-serif;
+}
+
+header{
+    display:flex;
+    background-color: #6bc1f3;
+    width:100%;
+    height:40px;
+    text-align: center;
+    justify-content: center;
+
+}
+#rett_arancione{
+    display:flex;
+    background-color: orange;
+    width:50%;
+    height: 30px;
+    margin:5px;
+    align-items: center;
+    justify-content: space-between;
+}
+#rett_arancione span{
+    display:flex;
+    align-items:center;
+}
+#header_logo{
+    width:15%;
+    border:2px black dashed;
+    height:30px;
+}
+#header_links{
+    width:70%;
+    border:2px black dashed;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    
+}
+#header_login{
+    width:15%;
+    border:2px black dashed;
+    height:30px;
+}
