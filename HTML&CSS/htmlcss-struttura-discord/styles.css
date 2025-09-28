@@ -56,6 +56,32 @@ header{
     background-color: pink;
     width:50%;
     height: 150px;
-    width:250px;
-    
+    width:250px;  
+}
+main > div{
+    padding:7px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main > div:nth-last-child(2), main > div:nth-last-child(4){
+    background-color: lightgray;
+    width:100%;
+}
+.blu_grande{
+    background-color: blue;
+    width:350px;
+    height: 200px;
+}
+.rosa_piccolo{
+    background-color: lightpink;
+    width:200px;
+    height: 200px;
+}
+main > div:nth-child(3){
+    display:flex;
+    .blu_grande{
+        order:1;
+    }
 }
