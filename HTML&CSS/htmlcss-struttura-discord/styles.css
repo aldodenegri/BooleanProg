@@ -42,4 +42,20 @@ header{
     width:15%;
     border:2px black dashed;
     height:30px;
+    display:flex;
+    justify-content: flex-end;
+}
+#sez1{
+    background-color: rgb(10, 54, 112);
+    width: 100%;
+    padding:7px;
+    display:flex;
+    justify-content: center;
+}
+#rosa{
+    background-color: pink;
+    width:50%;
+    height: 150px;
+    width:250px;
+    
 }
