@@ -102,6 +102,7 @@ header {
 main>div {
     padding: 7px;
     width: 100%;
+    min-height:300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,33 +114,75 @@ main>div:nth-last-child(4) {
     width: 100%;
 }
 
-.blu_grande {
-    background-color: blue;
+.img_page {
+    background-size:cover;
+    
+
+}
+#sez2 .img_page:nth-child(1) {
+    background-image: url(./img/item1.svg);
     width: 350px;
     height: 200px;
-    border: 1px black dashed;
+    
 }
-
-.rosa_piccolo {
-    background-color: lightpink;
+#sez3 .img_page:nth-child(1) {
+    background-image: url(./img/item2.svg);
+    width: 400px;
+    height: 300px;
+    scale:0.8;
+}
+#sez4 .img_page:nth-child(1) {
+    background-image: url(./img/item3.svg);
+    width: 450px;
+    height: 300px;
+    scale:0.8;
+}
+.sez_txt {
+    text-align:left;
     width: 250px;
-    height: 200px;
-    border: 1px black dashed;
+    height: 250px;
+    
+    
 }
-
+.sez_txt p{
+    font-size:11px;
+    line-height:1.5;
+}
 main>div:nth-child(3) {
     display: flex;
 
-    .blu_grande {
+    .img_page {
         order: 1;
     }
 }
 
+#sez5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    gap:20px;
+    padding:20px 0 60px 0;
+}
+#sez5 p{
+    width:550px;
+    font-size:11px;
+    
+}
+#sez5 input[type="button"]{
+    background-color:  #6b74f3;
+    color:white;
+    border: none;
+    border-radius:30px;
+    height: 30px;
+    width:200px;
+    margin:10px;
+}
 #verde {
-    background-color: green;
-    width: 600px;
-    height: 300px;
-    border: 1px black dashed;
+    background-image: url(./img/item4-big.svg);
+    background-size: cover;
+    width: 650px;
+    height: 400px;
 }
 
 main>div:last-child {
