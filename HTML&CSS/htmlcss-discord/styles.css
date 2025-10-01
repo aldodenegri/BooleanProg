@@ -164,6 +164,7 @@ main>div:nth-child(3) {
     gap:20px;
     padding:20px 0 60px 0;
 }
+
 #sez5 p{
     width:550px;
     font-size:11px;
@@ -178,52 +179,83 @@ main>div:nth-child(3) {
     width:200px;
     margin:10px;
 }
-#verde {
+#img_page_grande {
     background-image: url(./img/item4-big.svg);
     background-size: cover;
     width: 650px;
     height: 400px;
 }
 
-main>div:last-child {
-    background-color: rgb(77, 73, 73);
-
+#foot1{
+    display:flex;
+    color:white;
 }
 
 #rosa_medio {
+
     height: 250px;
     width: 200px;
-    background-color: lightpink;
-    border: 1px black dashed;
+    
+}
+#foot1 h3,.turchese span{
+    color:#6b74f3;
+}
+#foot1 span,.turchese{
+    font-size:12px;
+}
+#lingua{
+    display: flex;
+}
+.social-icons a {
+    margin: 0 5px;
+    color:white;
+    text-decoration: none;
 }
 
-.turchese {
-    background-color: turquoise;
-    width: 100px;
-    height: 250px;
-    border: 1px white dashed;
+.social-icons a:hover {
+    color: #a2b2c5;
 }
+.turchese {
+    
+    width: 100px;
+    min-height:300px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding-top:25px;
+    
+}
+
 footer{
     background-color: rgb(77, 73, 73);
-    border-top: 2px solid white;
     display:flex;
     justify-content: center;
-    padding-top:5px;
+    flex-wrap: wrap;
+    gap:20px;
+    padding-top:20px;
+    padding-bottom:20px;
 }
+
 #verde_acqua{
-    background-color: aquamarine;
-    width: 50%;
+    background-color: rgb(77, 73, 73);
+    border-top: 1px solid white;
+    width: 70%;
     height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top:20px;
+    padding-top:10px;
 
 }
-#verde_acqua span,footer input{
-    background-color: pink;
-    border: 1px black dashed;
+#footer_logo{
+    scale:0.7;
 }
-footer input[type="button"]:hover{
-    background-color: rgb(241, 154, 168);
-    cursor: pointer;
+#verde_acqua input{
+    background-color:  #6b74f3;
+    color:white;
+    border: none;
+    border-radius:30px;
+    
+    padding:7px;
 }
