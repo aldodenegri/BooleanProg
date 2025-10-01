@@ -5,50 +5,53 @@ body {
 
 header {
     display: flex;
-    background-color: #6bc1f3;
+    background-color: #6b74f3;
     width: 100%;
     height: 40px;
-    text-align: center;
-    justify-content: center;
+    justify-content: space-around;
 
 }
 
-#rett_arancione {
+#header_items {
     display: flex;
-    background-color: orange;
-    width: 50%;
+    width: 70%;
     height: 30px;
     margin: 5px;
     align-items: center;
     justify-content: space-between;
+    font-size:13px;
+    color:white;
 }
 
-#rett_arancione span {
+#header_items span {
     display: flex;
     align-items: center;
+    
 }
 
 #header_logo {
     width: 15%;
-    border: 2px black dashed;
     height: 30px;
 }
 
 #header_links {
     width: 70%;
-    border: 2px black dashed;
     height: 30px;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-around;
+    padding:0 40px;  
 }
 
 #header_login {
     width: 15%;
-    border: 2px black dashed;
+    background-color: white;
+    color:black;
+    border: none;
+    border-radius:30px;
     height: 30px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    
 }
 
 #sez1 {
@@ -57,6 +60,9 @@ header {
     padding: 7px;
     display: flex;
     justify-content: center;
+    background-image: url(./img/jumbo.png);
+    background-size:cover;
+    height: 300px;
 }
 
 #rosa {
@@ -143,7 +149,7 @@ footer{
     align-items: center;
 
 }
-#verde_acqua span,input{
+#verde_acqua span,footer input{
     background-color: pink;
     border: 1px black dashed;
 }
