@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-style: sans-serif;
+    font-family: ggogle-sans, sans-serif;
 }
 
 header {
@@ -63,15 +64,41 @@ header {
     background-image: url(./img/jumbo.png);
     background-size:cover;
     height: 300px;
+    text-align:center;
 }
 
 #rosa {
-    background-color: pink;
-    width: 50%;
-    height: 150px;
-    width: 250px;
+    width:450px;
+    
 }
-
+#rosa h1{
+    color:white;
+    font-size:30px;
+    font-weight:700;
+}
+#rosa p{
+    color:white;
+    font-size:13px;
+    line-height:1.5;
+}
+#rosa input[value="Scarica per Mac"]{
+    background-color: white;
+    color:black;
+    border: none;
+    border-radius:30px;
+    height: 30px;
+    width:200px;
+    margin:10px;
+}
+#rosa input[value="Apri Discord nel tuo browser"]{
+    background-color: rgb(39, 38, 38);
+    color:white;
+    border: none;
+    border-radius:30px;
+    height: 30px;
+    width:200px;
+    margin:10px;
+}
 main>div {
     padding: 7px;
     width: 100%;
