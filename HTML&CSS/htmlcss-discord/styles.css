@@ -191,16 +191,16 @@ main>div:nth-child(3) {
     color:white;
 }
 
-#rosa_medio {
+#lingua_e_social {
 
     height: 250px;
     width: 200px;
     
 }
-#foot1 h3,.turchese span{
+#foot1 h3,.link_pagina_footer span{
     color:#6b74f3;
 }
-#foot1 span,.turchese{
+#foot1 span,.link_pagina_footer{
     font-size:12px;
 }
 #lingua{
@@ -215,7 +215,7 @@ main>div:nth-child(3) {
 .social-icons a:hover {
     color: #a2b2c5;
 }
-.turchese {
+.link_pagina_footer {
     
     width: 100px;
     min-height:300px;
@@ -236,7 +236,7 @@ footer{
     padding-bottom:20px;
 }
 
-#verde_acqua{
+#lower_bar{
     background-color: rgb(77, 73, 73);
     border-top: 1px solid white;
     width: 70%;
@@ -251,7 +251,7 @@ footer{
 #footer_logo{
     scale:0.7;
 }
-#verde_acqua input{
+#lower_bar input{
     background-color:  #6b74f3;
     color:white;
     border: none;
