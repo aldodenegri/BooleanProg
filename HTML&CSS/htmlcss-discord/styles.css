@@ -99,7 +99,7 @@ header {
     width:200px;
     margin:10px;
 }
-main>div {
+main>div:not(.wave) {
     padding: 7px;
     width: 100%;
     min-height:300px;
@@ -107,11 +107,20 @@ main>div {
     justify-content: center;
     align-items: center;
 }
+.wave{
+    height:100px;
+    width:100%;
+    color:#f3f5f8;
+    display:block;
+}
+#wave2{
+    background-color: #f3f5f8;
+    color:white;
+}
 
-main>div:nth-last-child(2),
-main>div:nth-last-child(4) {
-    background-color: lightgray;
-    width: 100%;
+
+#sez3,#sez5 {
+   background-color:#f3f5f8
 }
 
 .img_page {
