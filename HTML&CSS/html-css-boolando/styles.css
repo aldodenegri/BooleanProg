@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    font-family:sans-serif;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color:rgb(252, 114, 2);
+    color:white;
+    height:100px;
+    position:fixed;
+    width:100%;
+}
+header img{
+    height:50px;
+}
+header div a{
+    margin-right:20px;
+}
+
+footer{
+    background-color: rgb(46, 43, 43);
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    background-color: rgb(58, 57, 57);
+    height:100px;
+    width:100%;
+    position:absolute;
+    bottom:0;
+    color:white;
+    font-size:10px;
+}
+footer div a{
+    margin-right:20px;
+}
