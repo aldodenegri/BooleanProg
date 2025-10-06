@@ -112,6 +112,9 @@ i{
     top:10px;
     
 }
+.favourite-item:hover{
+    color:red;
+}
 .extra-tag{
     position:absolute;
     bottom:100px;
