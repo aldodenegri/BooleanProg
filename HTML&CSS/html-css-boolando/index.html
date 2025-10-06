@@ -1,32 +1,127 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Boolando</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="styles.css">
+<html lang="it">
 
-    </head>
-    <body>
-        <header>
-            <div><a>Donna</a><a>Uomo</a><a>Bambini</a></div>
-            <img src="./img/boolean-logo.png">
-            <div><a>Ico1</a><a>Ico2</a><a>Ico3</a></div>
-        </header>
-        <main>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolando</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
 
-        </main>
-        <footer>
-            <div>
-                <span>Boolando S.r.l.</span>
-                <br>
-                <a>Informazioni Utili</a><a>Informativa sulla Privacy</a><a>Diretto di recesso</a></div>
-            <div>
-                <span>Trovaci anche su</span>
-                <br>
-                <a>soc1</a><a>soc2</a><a>soc3</a><a>soc1</a>
+<body>
+    <header>
+        <div>
+            <a href="#">Donna</a>
+            <a href="#">Uomo</a>
+            <a href="#">Bambini</a>
+        </div>
+        <img src="./img/boolean-logo.png" alt="Logo Boolando">
+        <div>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="image-grid">
+            <div class="row">
+                <div class="item">
+                    <img src="./img/1.webp" alt="">
+                    <div class="favourite-item"><i class="fa-solid fa-heart"></i></div>
+                    <div class="extra-tag">
+                        <span class="discount-tag">-50%</span>
+                        <span class="green-tag">Sostenibilità</span>
+                    </div>
+                    <p>
+                        <span class="brand">Levi's</span><br>
+                        <span class="item-name">RELAXED FIT TEE UNISEX</span><br>
+                        <span class="price">14,99€ <span class="discount">29,99€</span></span>
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="./img/2.webp" alt="">
+                    <div class="favourite-item"><i class="fa-solid fa-heart"></i></div> <!-- ❗️Corretto il tag chiuso male -->
+                    <div class="extra-tag">
+                        <span class="discount-tag">-30%</span>
+                    </div>
+                    <p>
+                        <span class="brand">Guess</span><br>
+                        <span class="item-name">ROSES TEE</span><br>
+                        <span class="price">20,99€ <span class="discount">29,99€</span></span>
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="./img/3.webp" alt="">
+                    <div class="favourite-item"><i class="fa-solid fa-heart"></i></div> <!-- ❗️Spostato fuori da extra-tag -->
+                    <div class="extra-tag">
+                        <span class="discount-tag">-30%</span>
+                    </div>
+                    <p>
+                        <span class="brand">Come Zucchero Filato</span><br>
+                        <span class="item-name">VOGLIA DI COLORI PASTELLO</span><br>
+                        <span class="price">129,99€ <span class="discount">184,99€</span></span>
+                    </p>
+                </div>
             </div>
+            <div class="row">
+                <div class="item">
+                    <img src="./img/4.webp" alt="">
+                    <div class="favourite-item"><i class="fa-solid fa-heart"></i></div>
+                    <div class="extra-tag">
+                        <span class="discount-tag">-50%</span>
+                        <span class="green-tag">Sostenibilità</span>
+                    </div>
+                    <p>
+                        <span class="brand">Levi's</span><br>
+                        <span class="item-name">TEE UNISEX</span><br>
+                        <span class="price">14,99€ <span class="discount">29,99€</span></span>
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="./img/5.webp" alt="">
+                    <div class="favourite-item"><i class="fa-solid fa-heart"></i></div>
+                    <p>
+                        <span class="brand">Maya Deluxe</span><br>
+                        <span class="item-name">RELAXED FIT TEE UNISEX</span><br>
+                        <span class="price">99,99€</span>
+                    </p>
+                </div>
+                <div class="item">
+                    <img src="./img/6.webp" alt="">
+                    <div class="favourite-item"><i class="fa-solid fa-heart"></i></div>
+                    <div class="extra-tag">
+                        <span class="green-tag">Sostenibilità</span>
+                    </div>
+                    <p>
+                        <span class="brand">Esprit</span><br>
+                        <span class="item-name">MAGLIONE</span><br>
+                        <span class="price">29,99€</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
 
-        </footer>
-    </body>
+    <footer>
+        <div>
+            <span>Boolando S.r.l.</span><br>
+            <a href="#">Informazioni Utili</a>
+            <a href="#">Informativa sulla Privacy</a>
+            <a href="#">Diritto di recesso</a>
+        </div>
+        <div>
+            <span>Trovaci anche su</span><br>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i> </a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </footer>
+</body>
+
 </html>

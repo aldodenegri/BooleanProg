@@ -2,15 +2,20 @@ body{
     margin:0;
     font-family:sans-serif;
 }
+a{
+    text-decoration:none;
+    color:white;
+}
 header{
     display:flex;
     justify-content: space-around;
     align-items:center;
     background-color:rgb(252, 114, 2);
     color:white;
-    height:100px;
+    height:70px;
     position:fixed;
     width:100%;
+    z-index:1;
 }
 header img{
     height:50px;
@@ -25,13 +30,99 @@ footer{
     justify-content: space-around;
     align-items:center;
     background-color: rgb(58, 57, 57);
-    height:100px;
+    height:70px;
     width:100%;
-    position:absolute;
-    bottom:0;
     color:white;
     font-size:10px;
+    position:relative;
+    top:100px;
 }
 footer div a{
-    margin-right:20px;
+    vertical-align:middle;
+    margin-right:2px;
+    color: rgb(58, 57, 57);
+    background-color: white;
+    padding:1px;
+    border-radius:1px;
+}
+main{
+    position:relative;
+    top:100px;
+    padding-top:100px;
+    padding-bottom:100px;
+    display:flex;
+    justify-content: center;
+}
+.image-grid {
+    display: flex;
+    flex-direction: column;
+    
+    width:50%;
+    gap: 10px; 
+}
+
+.row {
+    display: flex;
+    gap: 10px; 
+}
+
+.item {
+    width: 33.3333%;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    align-items: start; 
+}
+
+.item img {
+    width: 100%;
+    display: block;
+    
+}
+
+.item p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+.brand {
+    color:gray;
+}
+.item-name{
+    font-weight: bold;
+}
+.price {
+    color: red;
+}
+
+.discount {
+    color: rgb(17, 16, 16);
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+i{
+    vertical-align:middle;
+}
+.favourite-item{
+    
+    background-color: white;
+    padding:3px;
+    position:absolute;
+    right:0;
+    top:10px;
+    
+}
+.extra-tag{
+    position:absolute;
+    bottom:100px;
+}
+.discount-tag{
+    color:white;
+    padding:3px;
+    background-color: red;
+}
+.green-tag{
+    color:white;
+    padding:3px;
+    background-color:green;
 }
