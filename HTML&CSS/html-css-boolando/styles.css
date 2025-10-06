@@ -79,6 +79,7 @@ main {
     flex-direction: column;
     position: relative;
     align-items: start;
+    overflow: hidden;
 }
 
 .item img {
@@ -147,11 +148,21 @@ i {
 
 .img-2 {
     position: absolute;
+    z-index: -2;
+}
+.img-1 {
+    opacity: 1;
     z-index: -1;
 }
-.img-2 :hover{
+
+.img-2 {
+    opacity: 0;
     z-index: 0;
 }
-.img-1:hover {
-    z-index: -2;
+.item:hover .img-2 {
+    opacity: 1;
+}
+
+.item:hover .img-1 {
+    opacity: 0;
 }
