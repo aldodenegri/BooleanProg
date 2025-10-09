@@ -42,3 +42,35 @@
         margin: 0 15px 15px 0;
     }
 }
+
+@media (min-width: 992px) {
+    .recipe-category{
+        font-size:22px;
+    }
+    .recipe-name{
+        font-size:36px;
+
+    }
+    .quick-notes ul{
+        flex-wrap:nowrap;
+        flex-direction:column;
+        
+    }
+    .recipe-card{
+        display:flex;
+    }
+    .recipe-video{
+        width:80%;
+    }
+    .social-networks .label {
+	    display: inline-block;
+    }
+    footer{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer address{
+        text-align:left;
+    }
+}
