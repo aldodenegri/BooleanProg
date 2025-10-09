@@ -1,1 +1,19 @@
 /* Soluzione qui */
+@media (min-width: 768px) {
+    #topbar {
+        justify-content: left;
+    }
+
+    main {
+        padding: 50px;
+    }
+
+
+
+    .recipe-origin {
+        display: contents;
+    }
+
+    
+
+}
